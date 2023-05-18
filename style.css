@@ -1,0 +1,35 @@
+body {
+    background-color: #FEE902; /* McDonald's yellow background color */
+    font-family: "Helvetica", Arial, sans-serif; /* Helvetica font or fallback to Arial/sans-serif */
+  }
+  
+  .timer {
+    text-align: center;
+    margin-top: 100px; /* Adjust the margin as needed */
+  }
+  
+  h1 {
+    font-size: 96px; /* Adjust the font size as needed */
+    color: red; /* McDonald's red text color */
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 30px; /* Adjust the margin as needed */
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px; /* Rounded button style */
+    background-color: red; /* McDonald's red button color */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+  }
+  
+  button:disabled {
+    opacity: 0.5; /* Reduce opacity for disabled button */
+    cursor: not-allowed; /* Show not-allowed cursor for disabled button */
+  }
+  
